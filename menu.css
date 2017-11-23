@@ -1,0 +1,102 @@
+#onglets
+
+{
+    
+    list-style-type : none;
+    padding-bottom : 0px; /* à modifier suivant la taille de la police ET de la hauteur de l'onglet dans #onglets li */
+    border-bottom : 0px solid #9EA0A1;
+    margin-left : 0px;
+    overflow:auto;
+}
+
+
+
+
+#onglets li
+
+{
+    float : left;
+    height : 21px; /* à modifier suivant la taille de la police pour centrer le texte dans l'onglet */
+    background-color: #F4F9FD;
+    margin : 2px 2px 0 2px !important;  /* Pour les navigateurs autre que IE */
+    margin : 1px 2px 0 2px;  /* Pour IE  */
+    border : 1px solid #9EA0A1;
+}
+
+
+#onglets li.active
+
+{
+    border-bottom: 1px solid #fff;
+    background-color: #fff;
+    display : none;
+}
+
+h2
+{
+    
+ text-align: center;
+    
+}
+
+h1
+{
+
+	text-align: center;
+}
+
+
+/*#menu-1-btn:hover {
+    position: relative;
+    bottom: 100px;
+    background-color: #fff;
+    border-bottom: 100px solid #fff;
+    display : none;
+}
+
+#menu-2-btn:hover {
+    position: relative;
+    bottom: 100px;
+    background-color: #fff;
+    border-bottom: 100px solid #fff;
+    display : none;*/
+}
+
+/*#menu-3-btn:hover {
+    position: relative;
+    bottom: 1000000px;
+    background-color: #fff;
+    border-bottom: 10000000px solid #fff;
+    display : none;
+}*/
+
+
+#menu-1-btn p:hover{
+    visibility: none;
+}
+
+
+#menu-1
+{
+	display: none;
+	text-align: right;
+	font-size: 25px;
+}
+
+#menu-2
+{
+	display: none;
+	text-align: right; 
+	font-size: 25px;
+
+}
+
+
+#menu-3
+{
+	display: none;
+	text-align: left;
+	font-size: 25px;
+}
+
+
